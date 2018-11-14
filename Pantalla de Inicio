@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia</title>
+  </head>
+  <h1>
+  ¡Bienvenido/a!
+  </h1>
+<script>
+ let name = prompt("¡Bienvenido a nuestras Trivias! ¿Cuál es tu nombre?");
+ document.write("Hola "+name.toUpperCase()+". ¿Cuál trivia quieres comenzar?");
+</script>
+  <style type="text/css">
+  .boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+  .boton_2{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+  }
+  .boton_2:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+</style>
+
+  <body>
+    <script src="app.js">
+    </script>
+
+<p> Trivia 1: Redes Sociales. </p>
+<p> <a class="boton_1" href= "https://...">Iniciar trivia</a> </p>
+<p> Trivia 2: ¿Cuánto sabes de Laboratoria? </p>
+<p> <a class="boton_2" href= "https://...">Iniciar trivia</a> </p>
+  </body>
+</html>
